@@ -22,5 +22,5 @@ function deepestChild() {
     parent = next
     next = parent.children[0]
   }
-  return next
+  return parent
 }
