@@ -19,6 +19,6 @@ function deepestChild() {
   let next = parent.children[0]
   
   while(next) {
-    
+    parent = next
   }
 }
